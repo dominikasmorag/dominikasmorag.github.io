@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light gray background */
+    color: #333; /* Dark gray text color */
+    margin: 0;
+}
+
+header {
+    background-color: #333; /* Dark gray header background */
+    color: #fff; /* White text color */
+    padding: 20px;
+    text-align: center;
+}
+
+.projects {
+    max-width: 900px; /* Maximum width for the projects container */
+    margin: 0 auto; /* Center the projects container */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.project-tile {
+    background-color: #fff; /* White tile background */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    flex-basis: calc(33.33% - 20px); /* 33.33% width for each project tile with 20px margin */
+    text-align: center;
+}
+
+a {
+    text-decoration: none !important; /* Remove underlines for all links within project tiles */
+}
+
+.project-tile h2 {
+    color: #333; /* Dark gray project title color */
+}
+
+.project-tile p {
+    color: #666; /* Medium gray project description color */
+}
